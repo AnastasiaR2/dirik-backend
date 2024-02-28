@@ -19,12 +19,12 @@ This is the repository responsible for Dirik's backend.
 
 👉 To format files with prettier, run **`npm run prettify`**
 
-### ⚙️ Technologies
+## ⚙️ Technologies
 
 - [Express](https://expressjs.com/) — a backend framework.
 - [Mongoose](https://mongoosejs.com/) — an ODM.
 
-### 📝 Git Naming Conventions
+## 📝 Git Naming Conventions
 
 #### 🏅 Pull Request flow
 
