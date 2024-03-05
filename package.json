@@ -5,10 +5,9 @@
   "scripts": {
     "lint:editor": "editorconfig-checker",
     "lint:fs": "ls-lint",
-    "lint:type": "npx tsc --noEmit",
-    "lint:js": "npx eslint \"src/**/*.ts\" --max-warnings=0",
+    "lint:js": "npx tsc --noEmit && npx eslint \"src/**/*.ts\" --max-warnings=0",
     "lint:prettify": "prettier --check \"**/*.{ts,json,md}\"",
-    "lint": "npm run lint:editor && npm run lint:fs && npm run lint:type && npm run lint:js && npm run lint:prettify",
+    "lint": "npm run lint:editor && npm run lint:fs && npm run lint:js && npm run lint:prettify",
     "prettify": "prettier --write \"**/*.{ts,json,md}\"",
     "build": "npx tsc && tsc-alias",
     "start": "node dist/index.js",
