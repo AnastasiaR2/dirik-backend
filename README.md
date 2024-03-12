@@ -22,7 +22,7 @@ This is the repository responsible for Dirik's backend.
 ## ⚙️ Technologies
 
 - [Express](https://expressjs.com/) — a backend framework.
-- [PosgreSQL](https://www.postgresql.org/) - a database.
+- [PostgreSQL](https://www.postgresql.org/) - a database.
 - [Prisma](https://www.prisma.io/) — an ORM.
 
 ## 📝 Git Naming Conventions
